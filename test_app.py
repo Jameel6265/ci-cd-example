@@ -1,5 +1,3 @@
-# test_app.py
-from app import greet
-
+# in test_app.py
 def test_greet():
-    assert greet("World") == "Hello, World!"
+    assert greet("World") == "Hi, World!"  # wrong on purpose
